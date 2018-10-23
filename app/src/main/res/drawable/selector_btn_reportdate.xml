@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <!--도형안에 채워질 색을 정의한다.-->
+            <solid android:color="@color/colorTextView"/>
+            <!--각 모서리의 라운드 처리 - 값이 클수록 라운드의 각이 커진다.-->
+            <corners android:bottomLeftRadius="20dp" android:bottomRightRadius="20dp" android:topLeftRadius="20dp" android:topRightRadius="20dp"/>
+
+        </shape>
+    </item>
+</selector>

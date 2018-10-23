@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="25dp">
+
+    <android.support.constraint.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/text_index1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="32dp"
+            android:lineSpacingExtra="8sp"
+            android:text="출타 복귀 현황"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.068"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText" />
+
+
+        <TableLayout
+            android:id="@+id/table_index1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            app:layout_constraintTop_toBottomOf="@+id/text_index1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:background="#FFFFFF"
+            android:padding="3dp"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:background="#BBB"
+                    android:text="22(월)"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:background="#BBB"
+                    android:text="23(화)"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:background="#BBB"
+                    android:text="24(수)"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:background="#BBB"
+                    android:text="25(목)"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:background="#BBB"
+                    android:text="26(금)"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:background="#BBB"
+                    android:text="27(토)"
+                    tools:ignore="HardcodedText" />
+            </TableRow>
+
+
+
+
+            <TableRow
+                android:background="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:background="#FFFFFF"
+                    android:text="00명"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:background="#FFFFFF"
+                    android:text="00명"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:background="#FFFFFF"
+                    android:text="00명"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:background="#FFFFFF"
+                    android:text="00명"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:background="#FFFFFF"
+                    android:text="00명"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:background="#FFFFFF"
+                    android:text="00명"
+                    tools:ignore="HardcodedText" />
+            </TableRow>
+        </TableLayout>
+
+
+        <TextView
+            android:id="@+id/text_index2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="35dp"
+            android:lineSpacingExtra="8sp"
+            android:text="세부 사항"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.068"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/table_index1"
+            tools:ignore="HardcodedText" />
+
+
+
+
+
+        <TableLayout
+            android:id="@+id/table_index2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            app:layout_constraintTop_toBottomOf="@+id/text_index2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:background="#FFFFFF"
+            android:padding="3dp"
+            android:stretchColumns="*">
+
+        <TableRow
+            android:background="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:background="#BBB"
+                android:text="이름"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:background="#BBB"
+                android:text="전화번호"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:background="#BBB"
+                android:text="복귀예정시간"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:background="#BBB"
+                android:text="특이사항"
+                tools:ignore="HardcodedText" />
+        </TableRow>
+
+    </TableLayout>
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+
+        <TextView
+            android:id="@+id/text_index3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="35dp"
+            android:lineSpacingExtra="8sp"
+            android:text="현 위치"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.068"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/table_index2"
+            tools:ignore="HardcodedText" />
+
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="342dp"
+            android:layout_height="256dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            app:layout_constraintHorizontal_bias="0.068"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_index3"
+            app:srcCompat="@mipmap/sample_map"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/text_index4"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="35dp"
+            android:lineSpacingExtra="8sp"
+            android:text="특이사항"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:background="@drawable/btn_background_color"
+            app:layout_constraintHorizontal_bias="0.068"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView1"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="325dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="15dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="특이사항 작성"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.068"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView1"
+            tools:ignore="Autofill,HardcodedText,LabelFor" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
+
+
+

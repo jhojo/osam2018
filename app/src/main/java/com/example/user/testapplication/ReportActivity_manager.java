@@ -35,6 +35,7 @@ public class ReportActivity_manager extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         String data;
 
+        
         ArrayList<DataFormat> return_ifno = new ArrayList<>();
         return_ifno.add(new DataFormat("홍길동1","010-111-111", "1시", "이상무", 1, 1) );
         return_ifno.add(new DataFormat("홍길동2","010-222-222", "2시", "이상무", 2, 2) );

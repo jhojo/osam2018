@@ -3,43 +3,53 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".IntroActivity">
 
-    <TextView
-        android:id="@+id/type1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="text_1"
-        android:textColor="@android:color/black" />
 
-    <TextView
-        android:id="@+id/type2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:text="text_2"
-        android:textColor="@android:color/black"
-        app:layout_constraintStart_toEndOf="@+id/type1"
-        tools:layout_editor_absoluteY="0dp" />
 
-    <TextView
-        android:id="@+id/type3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:text="text_3"
-        android:textColor="@android:color/black"
-        app:layout_constraintStart_toEndOf="@+id/type2"
-        tools:layout_editor_absoluteY="0dp" />
+        <TextView
+            android:id="@+id/type1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="text_1"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
-        android:id="@+id/type4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:text="text_4"
-        android:textColor="@android:color/black"
-        app:layout_constraintStart_toEndOf="@+id/type3"
-        tools:layout_editor_absoluteY="0dp" />
+        <TextView
+            android:id="@+id/type2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="text_2"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toEndOf="@+id/type1"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/type3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="text_3"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toEndOf="@+id/type2"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/type4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="text_4"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toEndOf="@+id/type3"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteY="0dp" />
 </android.support.constraint.ConstraintLayout>
